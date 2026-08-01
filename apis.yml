@@ -1,7 +1,27 @@
 aid: scoutfm
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scoutfm.png
 name: Scout.fm
-description: Scout.fm is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Scout.fm (Scout FM) was a podcast-curation startup whose iOS, Android, Alexa
+  and CarPlay apps turned podcasts into personalized, radio-like stations using
+  AI-driven recommendations across genres such as news, sports and true crime.
+  Backed by Bloomberg Beta, Precursor Ventures, Advancit Capital and Samsung
+  NEXT (roughly $1.4M raised), the company was acquired by Apple in September
+  2020 and subsequently shut down, with its apps pulled from every platform. The
+  scout.fm domain no longer resolves and the company publishes no developer,
+  API, or SDK surface. This profile is retained as a historical network record;
+  there is nothing left to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/scoutfm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,27 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: apple
+x-acquired-date: '2020-09-24'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Podcasts
+- Audio
+- Recommendations
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
